@@ -15,13 +15,13 @@ const router = createRouter({
   routes,
 });
 
-router.beforeEach((to, from, next) => {
+router.beforeEach((_, __, next) => {
   AOS.init({
     offset: 200,
     duration: 600,
     easing: "ease-in-sine",
     delay: 100,
-  }); // Initialize AOS
+  });
   next();
 });
 

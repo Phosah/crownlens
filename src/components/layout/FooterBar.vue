@@ -20,7 +20,7 @@
           </p>
         </aside>
 
-        <div class="text-right">
+        <div data-aos="flip-down" class="text-right">
           <p class="text-2xl font-bold">CrownLens</p>
           <p class="hover:text-yellow-600 hover:font-medium transition-all">
             PHOTO

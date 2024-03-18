@@ -5,4 +5,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import "./tailwind.css";
 
-createApp(App).use(router).use(AOS).mount("#app");
+// Initialize AOS
+AOS.init();
+
+createApp(App).use(router).mount("#app");
