@@ -3,13 +3,28 @@
     class="max-w-7xl mx-auto flex px-4 py-8 md:py-16 items-center justify-between space-x-3 h-24 bg-white"
   >
     <div class="text-right">
-      <p class="text-lg md:text-2xl font-bold">CrownLens</p>
-      <p class="hover:text-yellow-600 hover:font-medium transition-all">
+      <p
+        data-aos="slide-down"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="600"
+        class="text-lg md:text-2xl font-bold"
+      >
+        CrownLens
+      </p>
+      <p
+        data-aos="slide-up"
+        data-aos-easing="ease-in-sine"
+        data-aos-duration="400"
+        class="hover:text-yellow-600 hover:font-medium transition-all"
+      >
         PHOTO
       </p>
     </div>
 
-    <ul class="flex items-center space-x-4 cursor-pointer">
+    <ul
+      data-aos="slide-right"
+      class="flex items-center space-x-4 cursor-pointer"
+    >
       <div
         class="border-b-2 border-transparent hover:border-yellow-600 hover:text-yellow-600 hover:font-medium transition-all"
       >
@@ -22,7 +37,10 @@
       </div>
     </ul>
 
-    <ul class="hidden md:flex items-center space-x-6 cursor-pointer">
+    <ul
+      data-aos="slide-left"
+      class="hidden md:flex items-center space-x-6 cursor-pointer"
+    >
       <aside class="flex items-center space-x-6">
         <p
           class="hover:text-yellow-600 hover:font-medium hover:scale-110 transition-all cursor-pointer"

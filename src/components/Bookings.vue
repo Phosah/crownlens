@@ -11,7 +11,11 @@
         />
       </div>
 
-      <div class="flex-1 space-y-6 text-center">
+      <div
+        data-aos="fade-up"
+        data-aos-delay="300"
+        class="flex-1 space-y-6 text-center"
+      >
         <p>
           “I needed a portrait done to gift to a relative, but I had no idea
           what I was looking for. Aaron was so kind and patient on the phone as

@@ -2,12 +2,18 @@
   <section class="py-20 px-6">
     <div class="max-w-7xl mx-auto">
       <h2
+        data-aos="flip-down"
         class="mb-6 text-3xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-red-800"
       >
         MEET BOLU YOUR CHICAGO PHOTOGRAPHER
       </h2>
 
-      <div class="md:flex items-center md:space-x-12 space-y-6 md:space-y-0">
+      <div
+        data-aos="fade-down"
+        data-aos-duration="600"
+        data-aos-delay="300"
+        class="md:flex items-center md:space-x-12 space-y-6 md:space-y-0"
+      >
         <div class="flex-1 space-y-4 text-center">
           <p>
             I’m a people person. I’m the kid who got you kicked out of class for
