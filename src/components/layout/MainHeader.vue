@@ -7,7 +7,7 @@
         class="max-w-7xl mx-auto flex flex-col justify-center items-center h-full text-white"
       >
         <h1
-          class="mb-10 text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-red-800"
+          class="mb-10 text-3xl md:text-5xl text-center font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-red-800"
         >
           CROWNLENS PHOTOGRAPHY
         </h1>

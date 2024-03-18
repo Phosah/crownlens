@@ -8,7 +8,7 @@
         Collections
       </h2>
 
-      <div class="relative z-20 grid grid-cols-3 gap-10">
+      <div class="relative z-20 grid grid-cols-1 md:grid-cols-3 gap-10">
         <div>
           <div>
             <div class="h-72 bg-red-50">
@@ -18,7 +18,7 @@
                 alt=""
               />
             </div>
-            <p class="p-2 text-center bg-gray-300">FAMILY</p>
+            <p class="p-2 text-center bg-gray-300">TRUMP FAMILY</p>
           </div>
         </div>
 
@@ -31,7 +31,7 @@
                 alt=""
               />
             </div>
-            <p class="p-2 text-center bg-gray-300">FAMILY</p>
+            <p class="p-2 text-center bg-gray-300">FOLA's GRADUATION</p>
           </div>
         </div>
 
@@ -44,7 +44,7 @@
                 alt=""
               />
             </div>
-            <p class="p-2 text-center bg-gray-300">FAMILY</p>
+            <p class="p-2 text-center bg-gray-300">MIKE & KAY WEDDING</p>
           </div>
         </div>
 
@@ -57,7 +57,7 @@
                 alt=""
               />
             </div>
-            <p class="p-2 text-center bg-gray-300">FAMILY</p>
+            <p class="p-2 text-center bg-gray-300">AKEEBA</p>
           </div>
         </div>
 
@@ -70,7 +70,7 @@
                 alt=""
               />
             </div>
-            <p class="p-2 text-center bg-gray-300">FAMILY</p>
+            <p class="p-2 text-center bg-gray-300">CHICAGO FAIR</p>
           </div>
         </div>
 
@@ -83,7 +83,7 @@
                 alt=""
               />
             </div>
-            <p class="p-2 text-center bg-gray-300">FAMILY</p>
+            <p class="p-2 text-center bg-gray-300">BILLY TRENTE</p>
           </div>
         </div>
       </div>

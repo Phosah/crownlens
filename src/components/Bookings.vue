@@ -1,6 +1,8 @@
 <template>
   <section class="py-20 px-6">
-    <div class="max-w-7xl mx-auto flex items-center space-x-10">
+    <div
+      class="max-w-7xl mx-auto md:flex items-center md:space-x-10 space-y-4 md:space-y-0"
+    >
       <div class="flex-1 flex justify-center">
         <img
           src="../assets/hero-bg.jpg"

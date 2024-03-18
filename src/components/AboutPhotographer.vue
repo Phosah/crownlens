@@ -7,7 +7,7 @@
         MEET BOLU YOUR CHICAGO PHOTOGRAPHER
       </h2>
 
-      <div class="flex items-center space-x-12">
+      <div class="md:flex items-center md:space-x-12 space-y-6 md:space-y-0">
         <div class="flex-1 space-y-4 text-center">
           <p>
             I’m a people person. I’m the kid who got you kicked out of class for

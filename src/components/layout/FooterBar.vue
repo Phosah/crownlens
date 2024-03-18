@@ -36,7 +36,7 @@
         </div>
       </div>
 
-      <p class="mt-6 text-center">
+      <p class="mt-12 text-center">
         Copyright © 2024 Crown lens Photography. All rights reserved.
       </p>
     </div>

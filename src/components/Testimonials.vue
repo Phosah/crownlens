@@ -1,8 +1,9 @@
 <template>
   <section class="relative py-20 bg-gray-200">
     <aside className="absolute inset-0 bg-cover bg-layer"></aside>
+
     <div
-      class="max-w-7xl mx-auto flex items-center space-x-12 p-20 bg-gray-600"
+      class="max-w-7xl mx-auto md:flex items-center md:space-x-12 space-y-6 md:space-y-0 p-10 md:p-20 bg-gray-600"
     >
       <div class="w-36 h-36">
         <img class="w-36 h-36" src="../assets/hero-bg.jpg" alt="" />
