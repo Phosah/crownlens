@@ -2,14 +2,10 @@
   <main class="bg-white">
     <MainHeader />
     <About />
-    <!-- <PhotoSlide /> -->
     <Bookings />
     <Collections />
     <AboutPhotographer />
-    <!-- <Experience /> -->
-    <!-- <Pricing /> -->
     <Testimonials />
-    <!-- <Contact /> -->
     <FooterBar />
   </main>
 </template>
@@ -19,10 +15,6 @@ import About from "../components/About.vue";
 import AboutPhotographer from "../components/AboutPhotographer.vue";
 import Bookings from "../components/Bookings.vue";
 import Collections from "../components/Collections.vue";
-import Contact from "../components/Contact.vue";
-import Experience from "../components/Experience.vue";
-import PhotoSlide from "../components/PhotoSlide.vue";
-import Pricing from "../components/Pricing.vue";
 import Testimonials from "../components/Testimonials.vue";
 import FooterBar from "../components/layout/FooterBar.vue";
 import MainHeader from "../components/layout/MainHeader.vue";
