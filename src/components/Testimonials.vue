@@ -1,5 +1,6 @@
 <template>
-  <section class="py-20 bg-gray-200">
+  <section class="relative py-20 bg-gray-200">
+    <aside className="absolute inset-0 bg-cover bg-layer"></aside>
     <div
       class="max-w-7xl mx-auto flex items-center space-x-12 p-20 bg-gray-600"
     >

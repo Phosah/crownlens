@@ -6,6 +6,10 @@ export default {
       backgroundImage: {
         "hero-bg": "url('/assets/hero-bg.jpg')",
       },
+
+      fontFamily: {
+        questrial: ["Questrial", "sans-serif"],
+      },
     },
   },
   plugins: [],

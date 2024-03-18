@@ -1,16 +1,30 @@
 <template>
-  <footer class="pt-20 pb-10 px-6 bg-gray-600">
+  <footer class="pt-20 pb-10 px-6 bg-gray-600 text-white">
     <div class="max-w-7xl mx-auto">
       <div class="flex justify-between mb-8">
-        <aside class="flex items-center space-x-2">
-          <p class="text-white">&cent;</p>
-          <p class="text-white">&pound;</p>
-          <p class="text-white">&cent;</p>
+        <aside class="flex items-center space-x-6">
+          <p
+            class="hover:text-yellow-600 hover:font-medium hover:scale-110 transition-all cursor-pointer"
+          >
+            &cent;
+          </p>
+          <p
+            class="hover:text-yellow-600 hover:font-medium hover:scale-110 transition-all cursor-pointer"
+          >
+            &pound;
+          </p>
+          <p
+            class="hover:text-yellow-600 hover:font-medium hover:scale-110 transition-all cursor-pointer"
+          >
+            &cent;
+          </p>
         </aside>
 
         <div class="text-right">
           <p class="text-2xl font-bold">CrownLens</p>
-          <p>PHOTO</p>
+          <p class="hover:text-yellow-600 hover:font-medium transition-all">
+            PHOTO
+          </p>
         </div>
       </div>
 
@@ -23,7 +37,7 @@
       </div>
 
       <p class="mt-6 text-center">
-        Copyright © 2024 Aaron Gang Photography. All rights reserved.
+        Copyright © 2024 Crown lens Photography. All rights reserved.
       </p>
     </div>
   </footer>

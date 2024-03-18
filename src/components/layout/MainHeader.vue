@@ -12,7 +12,11 @@
           CROWNLENS PHOTOGRAPHY
         </h1>
         <p class="mb-6">See yourself in the best light</p>
-        <p class="pb-2 border-b-2">Get in Touch</p>
+        <p
+          class="pb-2 border-b-2 hover:text-yellow-600 hover:font-medium transition-all hover:border-yellow-600 cursor-pointer"
+        >
+          Get in Touch
+        </p>
       </div>
     </aside>
   </header>
@@ -25,6 +29,11 @@ import Navbar from "./Navbar.vue";
 <style>
 .bg-hero {
   background-image: url("../../assets/hero-bg.jpg");
+  background-size: cover;
+}
+
+.bg-layer {
+  background-image: url("../../assets/layer.png");
   background-size: cover;
 }
 </style>
