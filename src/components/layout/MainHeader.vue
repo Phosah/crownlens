@@ -1,5 +1,5 @@
 <template>
-  <header class="pb-20">
+  <header class="">
     <Navbar />
 
     <aside class="bg-hero h-[40rem]">
@@ -7,7 +7,7 @@
         class="max-w-7xl mx-auto flex flex-col justify-center items-center h-full text-white"
       >
         <h1
-          class="mb-10 text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 to-red-900"
+          class="mb-10 text-3xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-red-800"
         >
           CROWNLENS PHOTOGRAPHY
         </h1>

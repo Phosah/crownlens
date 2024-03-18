@@ -1,18 +1,24 @@
 <template>
   <main class="bg-white">
     <MainHeader />
-    <PhotoSlide />
+    <About />
+    <!-- <PhotoSlide /> -->
     <Bookings />
-    <Experience />
-    <Pricing />
+    <Collections />
+    <AboutPhotographer />
+    <!-- <Experience /> -->
+    <!-- <Pricing /> -->
     <Testimonials />
-    <Contact />
+    <!-- <Contact /> -->
     <FooterBar />
   </main>
 </template>
 
 <script setup lang="ts">
+import About from "../components/About.vue";
+import AboutPhotographer from "../components/AboutPhotographer.vue";
 import Bookings from "../components/Bookings.vue";
+import Collections from "../components/Collections.vue";
 import Contact from "../components/Contact.vue";
 import Experience from "../components/Experience.vue";
 import PhotoSlide from "../components/PhotoSlide.vue";
