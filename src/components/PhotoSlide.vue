@@ -1,3 +1,3 @@
 <template>
-  <section class="h-96 bg-gray-600">Slider</section>
+  <section class="h-96 py-20 bg-white">Slider</section>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="bg-white">
     <MainHeader />
     <PhotoSlide />
     <Bookings />
