@@ -30,7 +30,7 @@
 
       <div>
         <div class="space-y-2">
-          <p>Email: hello@aarongang.com</p>
+          <p>Email: hello@crownlens.com</p>
           <p>Phone: (312) 805-5310</p>
           <p>Address: 1016 N Ashland Ave, Chicago, IL 60622</p>
         </div>

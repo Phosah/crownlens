@@ -1,5 +1,5 @@
 <template>
-  <section class="py-20 px-6">
+  <section class="py-24 px-6">
     <div
       class="max-w-7xl mx-auto md:flex items-center md:space-x-10 space-y-4 md:space-y-0"
     >

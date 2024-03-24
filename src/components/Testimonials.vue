@@ -1,22 +1,64 @@
 <template>
-  <section class="relative py-20 bg-gray-200">
+  <section class="relative py-24 bg-gray-200">
     <aside className="absolute inset-0 bg-cover bg-layer"></aside>
 
-    <div
-      class="max-w-7xl mx-auto md:flex items-center md:space-x-12 space-y-6 md:space-y-0 p-10 md:p-20 bg-gray-600"
-    >
-      <div class="w-36 h-36">
-        <img class="w-36 h-36" src="../assets/hero-bg.jpg" alt="" />
+    <div class="relative z-30 max-w-7xl mx-auto p-10 md:p-20 bg-gray-600">
+      <div class="md:flex items-center md:space-x-12 space-y-6 md:space-y-0">
+        <div data-aos="fade-right" class="w-36 h-36">
+          <img
+            class="object-cover w-36 h-36"
+            src="../assets/hero-bg.jpg"
+            alt=""
+          />
+        </div>
+
+        <p class="flex-1 text-xl text-white text-center">
+          {{ testimonials[index].message }}
+        </p>
       </div>
 
-      <p class="flex-1">
-        I’m a people person. I’m the kid who got you kicked out of class for
-        goofing off with me. I’m still that kid. My greatest achievement is my
-        daughter, Zoe. I love to explore new music. I’m also a leader with the
-        ManKind Project, a non-profit personal development organization for men.
-        I have a bachelor’s degree in theatre and English from Truman State and
-        a master’s degree in English from the University of Illinois-Chicago
-      </p>
+      <div class="relative z-20 flex justify-center space-x-4 mt-8">
+        <button
+          v-for="(testimonial, i) in testimonials"
+          :key="i"
+          @click="setIndex(i)"
+          class="w-10 h-4 rounded-full"
+          :class="{
+            'w-4 bg-orange-300': i === index,
+            'bg-white hover:bg-orange-300 opacity-40': i !== index,
+          }"
+        ></button>
+      </div>
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+import { ref } from "vue";
+const index = ref(0);
+
+const testimonials = [
+  {
+    name: "Porchettino Mirchandani, Founder, One Paper Lane",
+    message:
+      "Vestibulum convallis velit lectus, non hendrerit augue suscipit eu. Morbi aliquet est dolor, eget tincidunt nibh condimentum id. Mauris convallis scelerisque orci non interdum. eget tincidunt nibh condimentum id. Mauris convallis scelerisque orci non interdum.",
+    photo: "",
+  },
+  {
+    name: "Gaurav Mirchandani, Founder, One Paper Lane",
+    message:
+      "Dellis velit lectus, non hendrerit augue suscipit eu. Morbi aliquet est dolor, eget tincidunt nibh condimentum id. Mauris convallis scelerisque orci non interdum. nibh condimentum id. Mauris convallis scelerisque orci non interdum.",
+    photo: "",
+  },
+  {
+    name: " Mirchandani Gaurav, Founder, One Paper Lane",
+    message:
+      "Non hendrerit augue suscipit eu. Morbi aliquet est dolor, eget tincidunt nibh condimentum id. Mauris convallis scelerisque orci non interdum. Mauris convallis scelerisque orci non interdum.",
+    photo: "",
+  },
+];
+
+const setIndex = (i: number) => {
+  index.value = i;
+};
+</script>

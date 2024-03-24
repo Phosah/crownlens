@@ -1,18 +1,19 @@
 <template>
-  <header class="">
+  <header>
     <Navbar />
 
-    <aside class="bg-hero h-[40rem]">
+    <aside class="bg-hero h-screen">
       <div
         class="max-w-7xl mx-auto flex flex-col justify-center items-center h-full text-white"
       >
         <h1
           data-aos="zoom-in-up"
           data-aos-easing="ease-in-out-quad"
-          class="mb-10 text-3xl md:text-5xl text-center font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-red-800"
+          class="mb-10 text-3xl md:text-5xl xl:text-7xl text-center font-bold bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-red-800"
         >
           CROWNLENS PHOTOGRAPHY
         </h1>
+
         <p
           data-aos="fade-right"
           data-aos-easing="ease-in-out-back"
@@ -21,6 +22,7 @@
         >
           See yourself in the best light
         </p>
+
         <p
           data-aos="zoom-in-down"
           class="pb-2 border-b-2 hover:text-yellow-600 hover:font-medium transition-all hover:border-yellow-600 cursor-pointer"

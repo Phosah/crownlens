@@ -2,6 +2,7 @@
   <main class="bg-white">
     <MainHeader />
     <About />
+    <Carousel />
     <Bookings />
     <Collections />
     <AboutPhotographer />
@@ -14,6 +15,7 @@
 import About from "../components/About.vue";
 import AboutPhotographer from "../components/AboutPhotographer.vue";
 import Bookings from "../components/Bookings.vue";
+import Carousel from "../components/Carousel.vue";
 import Collections from "../components/Collections.vue";
 import Testimonials from "../components/Testimonials.vue";
 import FooterBar from "../components/layout/FooterBar.vue";

@@ -1,9 +1,9 @@
 <template>
-  <section class="py-20 px-6">
+  <section class="py-24 px-6">
     <div class="max-w-7xl mx-auto">
       <h2
         data-aos="flip-down"
-        class="mb-6 text-3xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-red-800"
+        class="mb-6 text-2xl md:text-5xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-r from-yellow-300 to-red-800"
       >
         MEET BOLU YOUR CHICAGO PHOTOGRAPHER
       </h2>
