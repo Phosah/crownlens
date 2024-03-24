@@ -35,8 +35,10 @@ const imageGallery = [
 const currentImageIndex = ref(0);
 const currentImage = ref(imageGallery[currentImageIndex.value]);
 
+let intervalId: number;
+
 const switchImages = () => {
-  setInterval(() => {
+  intervalId = setInterval(() => {
     currentImageIndex.value =
       (currentImageIndex.value + 1) % imageGallery.length;
     currentImage.value = imageGallery[currentImageIndex.value];
@@ -44,5 +46,5 @@ const switchImages = () => {
 };
 
 onMounted(switchImages);
-onUnmounted(() => clearInterval(switchImages));
+onUnmounted(() => clearInterval(intervalId));
 </script>

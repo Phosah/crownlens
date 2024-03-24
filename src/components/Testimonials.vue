@@ -19,7 +19,7 @@
 
       <div class="relative z-20 flex justify-center space-x-4 mt-8">
         <button
-          v-for="(testimonial, i) in testimonials"
+          v-for="(_, i) in testimonials"
           :key="i"
           @click="setIndex(i)"
           class="w-10 h-4 rounded-full"
